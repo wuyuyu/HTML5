@@ -7,16 +7,11 @@
     <script src="main.js"></script>
 </head>
 <body>
+    <h1 class="title">Hello Web Component</h1>
 
-    <h1>Hello Web Component</h1>
+    <app-hello></app-hello>
 
-    <script>
-        const appHello = new AppHelloComponent();
-
-        document.querySelector('body').appendChild(appHello);
-        document.querySelector('app-hello').remove();
-
-    </script>
+    <app-hello></app-hello>
 
 </body>
 </html>
